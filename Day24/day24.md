@@ -364,11 +364,11 @@ def block(z: list[int], w:int, A: int, B: int, D: bool)
 ```
 
 * The first line is simple enough, it reads a new value from the memory into `w`.
-* Lines 2-4 clear the value of `x`, and store in it `z%26`. As we will see, `z` represents a "word" with characters in base-26, so now `x` contains the last character of `z`.
+* Lines 2-4 clear the value of `x`, and store in it `z%26`, so now `x` contains the last character of `z`.
 
 ```python
 def block(z: list[int], w: int, A: int, B: int, D: bool):
-    if z = []:
+    if z == []:
         x = 0
     else:
         x = z[-1]
@@ -378,7 +378,7 @@ def block(z: list[int], w: int, A: int, B: int, D: bool):
 
 ```python
 def block(z: list[int], w: int, A: int, B: int, D: bool):
-    if z = []:
+    if z == []:
         x = 0
     else:
         x = z[-1]
@@ -405,11 +405,11 @@ def block(z: list[int], w: int, A: int, B: int, D: bool):
 |12   |-6 |Yes        |
 |13   |-12|Yes        |
 
-Interestingly, the `Yes` occur in the blocks with `D` equal to 26 and in the last one.
+Interestingly, the `Yes` occur in the blocks with `D` equal to 26.
 
 ```python
 def block(z: list[int], w: int, A: int, B: int, D: bool):
-    if z = []:
+    if z == []:
         x = 0
     else:
         x = z[-1]
@@ -423,7 +423,7 @@ def block(z: list[int], w: int, A: int, B: int, D: bool):
 
 ```python
 def block(z: list[int], w: int, A: int, B: int, D: bool):
-    if z = []:
+    if z == []:
         x = 0
     else:
         x = z[-1]
@@ -439,7 +439,7 @@ def block(z: list[int], w: int, A: int, B: int, D: bool):
 
 ```python
 def block(z: list[int], w: int, A: int, B: int, D: bool):
-    if z = []:
+    if z == []:
         x = 0
     else:
         x = z[-1]
